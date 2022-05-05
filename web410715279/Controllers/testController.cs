@@ -26,6 +26,7 @@ namespace web410715279.Controllers
 
         public ActionResult HW3()
         {
+            ViewBag.testname = "viewbag test";
             return View();
         }
     }
