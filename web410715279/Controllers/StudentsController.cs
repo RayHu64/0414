@@ -76,7 +76,7 @@ namespace web410715279.Controllers
         // 如需詳細資料，請參閱 https://go.microsoft.com/fwlink/?LinkId=317598。
 
         // GET: Students/Delete/5
-        public ActionResult Delete([Bind(Include = "Id,Name,Number,Email,IsActive")] Student student)
+        public ActionResult Delete([Bind(Include = "Id,UserName,Number,Email,IsActive")] Student student)
         {
             if (ModelState.IsValid)
             {
